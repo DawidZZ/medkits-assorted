@@ -11,4 +11,7 @@
 
   <entityname.mka_traumabag_waterproof>Waterproof Trauma Bag</entityname.mka_traumabag_waterproof>
   <entitydescription.mka_traumabag_waterproof>A hard-shell, waterproof trauma case that has to be carried with both hands. Holds a little less than a regular trauma bag, but keeps its contents dry and doesn't degrade in water. Holds medical supplies only.</entitydescription.mka_traumabag_waterproof>
+
+  <entityname.mka_largemedicalbag>Large Medical Bag</entityname.mka_largemedicalbag>
+  <entitydescription.mka_largemedicalbag>A roomy medic's bag, carried in one hand or kept in the inventory. Holds medical supplies only.</entitydescription.mka_largemedicalbag>
 </infotexts>
