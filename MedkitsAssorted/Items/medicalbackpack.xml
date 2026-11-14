@@ -19,7 +19,7 @@
     <Sprite texture="%ModDir%/Images/medicalbackpack.png" sourcerect="0,0,128,217" origin="0.5,0.5" depth="0.6" />
     <Body width="118" height="205" density="15" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="MedicalBackpack" CanBeHiddenByOtherWearables="false" CanBeHiddenByItem="deepdivinglarge" texture="%ModDir%/Images/medicalbackpack_worn.png" sourcerect="0,0,88,218" limb="Torso" inherittexturescale="true" scale="0.5" origin="1.50,0.5" />
+      <sprite name="MedicalBackpack" CanBeHiddenByOtherWearables="false" CanBeHiddenByItem="deepdivinglarge" texture="%ModDir%/Images/medicalbackpack_worn.png" sourcerect="0,0,88,218" limb="Torso" inherittexturescale="true" scale="0.5" origin="1.50,0.6" />
       <SkillModifier skillidentifier="medical" skillvalue="10" />
       <StatValue stattype="MovementSpeed" value="-0.1" />
       <StatValue stattype="PropulsionSpeed" value="-0.1" />

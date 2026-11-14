@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- First Responder Tactical Vest -->
+  <Item name="" identifier="mka_firstrespondervest" category="Equipment" tags="smallitem,clothing" canflipx="false" scale="0.3" fireproof="false" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="30" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Price baseprice="360" sold="false" />
+    <InventoryIcon texture="%ModDir%/Images/firstrespondervest.png" sourcerect="0,0,197,187" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/firstrespondervest.png" sourcerect="0,0,197,187" origin="0.5,0.5" depth="0.6" />
+    <Body width="172" height="170" density="25" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds,explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="First Responder Vest Wearable" texture="%ModDir%/Images/firstrespondervest_worn.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.56" inheritorigin="false" origin="0.5,0.6" inheritsourcerect="false" sourcerect="0,0,162,180" />
+    </Wearable>
+    <ItemContainer capacity="6" maxstacksize="32">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+      <SlotIcon slotindex="6" texture="%ModDir%/Images/sloticon_bandage.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="7" texture="%ModDir%/Images/sloticon_bandage.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SubContainer capacity="2">
+        <Containable items="antibleeding1,antibleeding2" />
+      </SubContainer>
+    </ItemContainer>
+  </Item>
+
+</Items>

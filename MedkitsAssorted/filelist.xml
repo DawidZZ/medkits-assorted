@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Medkits Assorted" modversion="0.6.0" corepackage="false" gameversion="1.13.5.0">
+<contentpackage name="Medkits Assorted" modversion="0.7.0" corepackage="false" gameversion="1.13.5.0">
   <Item file="%ModDir%/Items/medkit.xml" />
   <Item file="%ModDir%/Items/ifak.xml" />
   <Item file="%ModDir%/Items/traumabag.xml" />
   <Item file="%ModDir%/Items/traumabag_waterproof.xml" />
   <Item file="%ModDir%/Items/largemedicalbag.xml" />
   <Item file="%ModDir%/Items/medicalbackpack.xml" />
+  <Item file="%ModDir%/Items/firstrespondervest.xml" />
   <Text file="%ModDir%/Texts/English.xml" />
   <Text file="%ModDir%/Texts/Polish.xml" />
   <Other file="%ModDir%/Images/medkit.png" />
@@ -16,4 +17,7 @@
   <Other file="%ModDir%/Images/largemedicalbag.png" />
   <Other file="%ModDir%/Images/medicalbackpack.png" />
   <Other file="%ModDir%/Images/medicalbackpack_worn.png" />
+  <Other file="%ModDir%/Images/firstrespondervest.png" />
+  <Other file="%ModDir%/Images/firstrespondervest_worn.png" />
+  <Other file="%ModDir%/Images/sloticon_bandage.png" />
 </contentpackage>
