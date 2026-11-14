@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Polish" nowhitespace="false" translatedname="Polski">
+  <entityname.mka_ifak>IFAK</entityname.mka_ifak>
+  <entitydescription.mka_ifak>IFAK (indywidualny zestaw pierwszej pomocy): mała saszetka pierwszej pomocy dla każdego członka załogi. Mieści tylko przedmioty medyczne i zmieści się w plecaku, pasie narzędziowym albo uniformie. Może być umieszczana w pojemnikach.</entitydescription.mka_ifak>
+
   <entityname.mka_medkit>Apteczka</entityname.mka_medkit>
-  <entitydescription.mka_medkit>Standardowa apteczka medyka noszona w jednej ręce. Mieści tylko przedmioty medyczne.</entitydescription.mka_medkit>
+  <entitydescription.mka_medkit>Standardowa apteczka medyka. Mieści tylko przedmioty medyczne. Może być przyczepiona do medycznego uniformu i otwierana bezpośrednio z niego.</entitydescription.mka_medkit>
 </infotexts>

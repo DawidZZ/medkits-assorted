@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- IFAK -->
+  <Item name="" identifier="mka_ifak" category="Medical" tags="smallitem,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.15" fireproof="true" description="" impactsoundtag="impact_soft">
+    <PreferredContainer primary="medcab" spawnprobability="0.1" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Price baseprice="50">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="4" />
+      <Price storeidentifier="merchantoutpost" minavailable="2" />
+      <Price storeidentifier="merchantcity" minavailable="2" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/ifak_icon.png" sourcerect="0,0,143,199" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/ifak.png" sourcerect="0,0,100,139" origin="0.5,0.5" depth="0.6" />
+    <Body width="92" height="130" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="0,58" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="4" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+    </ItemContainer>
+  </Item>
+
+</Items>

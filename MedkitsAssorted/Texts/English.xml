@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.mka_ifak>IFAK</entityname.mka_ifak>
+  <entitydescription.mka_ifak>IFAK (Individual First Aid Kit): a small first aid pouch for every crew member. Holds medical supplies only and fits in a backpack, a toolbelt or a uniform. Can be placed inside containers.</entitydescription.mka_ifak>
+
   <entityname.mka_medkit>Medkit</entityname.mka_medkit>
-  <entitydescription.mka_medkit>A standard medic's kit, carried in one hand. Holds medical supplies only.</entitydescription.mka_medkit>
+  <entitydescription.mka_medkit>A standard medic's kit. Holds medical supplies only. Can be attached to medical uniform and opened directly from it.</entitydescription.mka_medkit>
 </infotexts>
