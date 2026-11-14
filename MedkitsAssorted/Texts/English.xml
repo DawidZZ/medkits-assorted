@@ -5,4 +5,7 @@
 
   <entityname.mka_medkit>Medkit</entityname.mka_medkit>
   <entitydescription.mka_medkit>A standard medic's kit. Holds medical supplies only. Can be attached to medical uniform and opened directly from it.</entitydescription.mka_medkit>
+
+  <entityname.mka_traumabag>Trauma Bag</entityname.mka_traumabag>
+  <entitydescription.mka_traumabag>A large emergency bag that has to be carried with both hands. Holds plenty of medical supplies, and nothing else. Not waterproof: it falls apart if left in water for too long.</entitydescription.mka_traumabag>
 </infotexts>
