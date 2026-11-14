@@ -3,7 +3,7 @@
 
   <!-- Medical Backpack -->
   <Item name="" identifier="mka_medicalbackpack" category="Medical" tags="mediumitem,mobilecontainer,largemobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.27" fireproof="true" description="" impactsoundtag="impact_soft">
-    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+    <Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
       <RequiredSkill identifier="medical" level="30" />
       <RequiredItem identifier="organicfiber" amount="5" />
       <RequiredItem identifier="plastic" />

@@ -3,7 +3,7 @@
 
   <!-- Large Medical Bag -->
   <Item name="" identifier="mka_largemedicalbag" category="Medical" tags="mediumitem,mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.32" fireproof="true" description="" impactsoundtag="impact_soft">
-    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+    <Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
       <RequiredSkill identifier="medical" level="30" />
       <RequiredItem identifier="organicfiber" amount="3" />
       <RequiredItem identifier="plastic" />

@@ -3,7 +3,7 @@
 
   <!-- First Responder Tactical Vest -->
   <Item name="" identifier="mka_firstrespondervest" category="Equipment" tags="smallitem,clothing" canflipx="false" scale="0.3" fireproof="false" description="" impactsoundtag="impact_soft">
-    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+    <Fabricate suitablefabricators="fabricator" requiredtime="30" requiresrecipe="true">
       <RequiredSkill identifier="medical" level="30" />
       <RequiredItem identifier="ballisticfiber" amount="2" />
       <RequiredItem identifier="organicfiber" amount="2" />

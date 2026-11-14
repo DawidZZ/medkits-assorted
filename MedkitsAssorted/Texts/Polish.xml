@@ -20,4 +20,7 @@
 
   <entityname.mka_firstrespondervest>Kamizelka taktyczna ratownika</entityname.mka_firstrespondervest>
   <entitydescription.mka_firstrespondervest>Lekka kamizelka taktyczna dla medyków pracujących na pierwszej linii. Chroni słabiej niż standardowa kamizelka kuloodporna, ale ma kieszenie na środki medyczne i osobne kieszonki na bandaże.</entitydescription.mka_firstrespondervest>
+
+  <talentname.mka_firstresponder>Ratownik pierwszego kontaktu</talentname.mka_firstresponder>
+  <talentname.mka_alwaysprepared>Zawsze gotowy</talentname.mka_alwaysprepared>
 </infotexts>

@@ -20,4 +20,7 @@
 
   <entityname.mka_firstrespondervest>First Responder Tactical Vest</entityname.mka_firstrespondervest>
   <entitydescription.mka_firstrespondervest>A light tactical vest made for medics working on the front line. Offers less protection than standard body armor, but has pouches for medical supplies and dedicated slots for bandages.</entitydescription.mka_firstrespondervest>
+
+  <talentname.mka_firstresponder>First Responder</talentname.mka_firstresponder>
+  <talentname.mka_alwaysprepared>Always Prepared</talentname.mka_alwaysprepared>
 </infotexts>

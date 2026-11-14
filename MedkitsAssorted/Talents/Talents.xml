@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+
+  <!-- First Responder -->
+  <Talent identifier="mka_firstresponder">
+    <Icon texture="%ModDir%/Images/talent_firstresponder.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.mka_firstrespondervest" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.mka_medicalbackpack" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="mka_firstrespondervest" />
+    <AddedRecipe itemidentifier="mka_medicalbackpack" />
+  </Talent>
+
+  <!-- Always Prepared -->
+  <Talent identifier="mka_alwaysprepared">
+    <Icon texture="%ModDir%/Images/talent_alwaysprepared.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.mka_largemedicalbag" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="mka_largemedicalbag" />
+  </Talent>
+
+</Talents>
