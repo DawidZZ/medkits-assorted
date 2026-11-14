@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- Medkit -->
+  <Item name="" identifier="mka_medkit" category="Medical" tags="mediumitem,mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.24" fireproof="true" description="" impactsoundtag="impact_soft">
+    <InventoryIcon texture="%ModDir%/Images/medkit.png" sourcerect="0,0,160,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/medkit.png" sourcerect="0,0,160,128" origin="0.5,0.5" depth="0.6" />
+    <Body width="150" height="118" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="0,54" aimable="false" msg="ItemMsgPickUpSelect" />
+  </Item>
+
+</Items>
