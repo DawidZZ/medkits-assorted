@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- Medical Backpack -->
+  <Item name="" identifier="mka_medicalbackpack" category="Medical" tags="mediumitem,mobilecontainer,largemobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.27" fireproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="medical" level="30" />
+      <RequiredItem identifier="organicfiber" amount="5" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" amount="3" />
+    </Deconstruct>
+    <Price baseprice="240">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantcity" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/medicalbackpack.png" sourcerect="0,0,128,217" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/medicalbackpack.png" sourcerect="0,0,128,217" origin="0.5,0.5" depth="0.6" />
+    <Body width="118" height="205" density="15" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="MedicalBackpack" CanBeHiddenByOtherWearables="false" CanBeHiddenByItem="deepdivinglarge" texture="%ModDir%/Images/medicalbackpack_worn.png" sourcerect="0,0,88,218" limb="Torso" inherittexturescale="true" scale="0.5" origin="1.50,0.5" />
+      <SkillModifier skillidentifier="medical" skillvalue="10" />
+      <StatValue stattype="MovementSpeed" value="-0.1" />
+      <StatValue stattype="PropulsionSpeed" value="-0.1" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-15,100" handle2="15,100" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.7" setvalue="true" disabledeltatime="true" />
+      <StatValue stattype="PropulsionSpeed" value="-0.3" />
+    </Holdable>
+    <ItemContainer capacity="12" maxstacksize="32" depth="0.5">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+    </ItemContainer>
+  </Item>
+
+</Items>

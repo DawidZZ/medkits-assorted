@@ -14,4 +14,7 @@
 
   <entityname.mka_largemedicalbag>Large Medical Bag</entityname.mka_largemedicalbag>
   <entitydescription.mka_largemedicalbag>A roomy medic's bag, carried in one hand or kept in the inventory. Holds medical supplies only.</entitydescription.mka_largemedicalbag>
+
+  <entityname.mka_medicalbackpack>Medical Backpack</entityname.mka_medicalbackpack>
+  <entitydescription.mka_medicalbackpack>A medic's backpack worn in the bag slot. Holds medical supplies only, gives medical skill bonus.</entitydescription.mka_medicalbackpack>
 </infotexts>
