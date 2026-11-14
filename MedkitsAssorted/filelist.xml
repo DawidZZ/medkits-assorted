@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Medkits Assorted" modversion="0.3.0" corepackage="false" gameversion="1.13.5.0">
+<contentpackage name="Medkits Assorted" modversion="0.4.0" corepackage="false" gameversion="1.13.5.0">
   <Item file="%ModDir%/Items/medkit.xml" />
   <Item file="%ModDir%/Items/ifak.xml" />
   <Item file="%ModDir%/Items/traumabag.xml" />
+  <Item file="%ModDir%/Items/traumabag_waterproof.xml" />
   <Text file="%ModDir%/Texts/English.xml" />
   <Text file="%ModDir%/Texts/Polish.xml" />
   <Other file="%ModDir%/Images/medkit.png" />
   <Other file="%ModDir%/Images/ifak.png" />
   <Other file="%ModDir%/Images/ifak_icon.png" />
   <Other file="%ModDir%/Images/traumabag.png" />
+  <Other file="%ModDir%/Images/traumabag_waterproof.png" />
 </contentpackage>

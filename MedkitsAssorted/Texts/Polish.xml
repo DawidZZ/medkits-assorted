@@ -8,4 +8,7 @@
 
   <entityname.mka_traumabag>Torba ratownicza</entityname.mka_traumabag>
   <entitydescription.mka_traumabag>Duża torba ratunkowa, którą trzeba nieść w obu rękach. Mieści mnóstwo środków medycznych i nic poza nimi. Nie jest wodoodporna: zbyt długo trzymana w wodzie rozpada się.</entitydescription.mka_traumabag>
+
+  <entityname.mka_traumabag_waterproof>Wodoodporna torba ratownicza</entityname.mka_traumabag_waterproof>
+  <entitydescription.mka_traumabag_waterproof>Twarda, wodoodporna skrzynka ratownicza, którą trzeba nieść w obu rękach. Mieści trochę mniej niż zwykła torba ratownicza, ale nie traci wytrzymałości pod wodą i chroni zawartość przed zamoczeniem. Mieści tylko przedmioty medyczne.</entitydescription.mka_traumabag_waterproof>
 </infotexts>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- Waterproof Trauma Bag -->
+  <Item name="" identifier="mka_traumabag_waterproof" category="Medical" tags="mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.36" fireproof="true" waterproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredItem identifier="organicfiber" amount="3" />
+      <RequiredItem identifier="plastic" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Price baseprice="240">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/traumabag_waterproof.png" sourcerect="0,0,240,132" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/traumabag_waterproof.png" sourcerect="0,0,240,132" origin="0.5,0.5" depth="0.56" />
+    <Body width="230" height="110" density="20" friction="1.0" restitution="0.01" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,64" handle2="0,58" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="16" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+    </ItemContainer>
+  </Item>
+
+</Items>
