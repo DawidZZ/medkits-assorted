@@ -3,10 +3,26 @@
 
   <!-- Medkit -->
   <Item name="" identifier="mka_medkit" category="Medical" tags="mediumitem,mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.24" fireproof="true" description="" impactsoundtag="impact_soft">
+    <PreferredContainer primary="medcab" spawnprobability="0.1" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="medical" level="20" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Price baseprice="80">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantcity" minavailable="1" />
+    </Price>
     <InventoryIcon texture="%ModDir%/Images/medkit.png" sourcerect="0,0,160,128" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Images/medkit.png" sourcerect="0,0,160,128" origin="0.5,0.5" depth="0.6" />
     <Body width="150" height="118" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="0,54" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="9" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+    </ItemContainer>
   </Item>
 
 </Items>
