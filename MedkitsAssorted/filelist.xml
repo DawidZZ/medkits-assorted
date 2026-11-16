@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Medkits Assorted" modversion="0.8.0" corepackage="false" gameversion="1.13.5.0">
+<contentpackage name="Medkits Assorted" modversion="0.9.0" corepackage="false" gameversion="1.13.5.0">
   <Item file="%ModDir%/Items/medkit.xml" />
   <Item file="%ModDir%/Items/ifak.xml" />
   <Item file="%ModDir%/Items/traumabag.xml" />
@@ -24,4 +24,14 @@
   <Other file="%ModDir%/Images/sloticon_bandage.png" />
   <Other file="%ModDir%/Images/talent_firstresponder.png" />
   <Other file="%ModDir%/Images/talent_alwaysprepared.png" />
+  <Other file="%ModDir%/Lua/Autorun/medkitsassorted.lua" />
+  <Other file="%ModDir%/Lua/Scripts/config.lua" />
+  <Other file="%ModDir%/Lua/Scripts/util.lua" />
+  <Other file="%ModDir%/Lua/Scripts/clothing.lua" />
+  <Other file="%ModDir%/Lua/Scripts/uniform_pockets.lua" />
+  <Other file="%ModDir%/Lua/Scripts/nested_inventory/common.lua" />
+  <Other file="%ModDir%/Lua/Scripts/nested_inventory/frames.lua" />
+  <Other file="%ModDir%/Lua/Scripts/nested_inventory/layout.lua" />
+  <Other file="%ModDir%/Lua/Scripts/nested_inventory/open.lua" />
+  <Other file="%ModDir%/Lua/Scripts/nested_inventory/drag_bar.lua" />
 </contentpackage>
