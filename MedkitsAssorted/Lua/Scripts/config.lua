@@ -14,3 +14,10 @@ MA.MedicClothes = {
 
 -- Pocket rule the IFAK is added to
 MA.PocketRuleTags = { "smallitem", "medical", "chem" }
+
+MA.LargeSurgicalKit = "mka_largesurgicalkit"
+MA.BasicSurgicalKit = "mka_basicsurgicalkit"
+MA.AlwaysPrepared = "mka_alwaysprepared"
+
+-- Tools put into a Large Surgical Kit made with the (kit) recipe (like NT's surgerytoolboxset)
+MA.SurgicalKitTools = { "advscalpel", "advhemostat", "advretractors", "tweezers", "traumashears", "surgicaldrill", "surgerysaw" }

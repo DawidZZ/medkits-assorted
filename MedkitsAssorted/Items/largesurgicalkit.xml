@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- Large Surgical Kit -->
+  <Item name="" identifier="mka_largesurgicalkit" category="Equipment" tags="mediumitem,mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.24" fireproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true" hideifnorecipe="true">
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="steel" amount="2" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="mka_kit" requiredtime="20" requiresrecipe="true" hideifnorecipe="true">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="steel" amount="2" />
+      <RequiredItem identifier="zinc" amount="2" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Price baseprice="80" sold="false" />
+    <InventoryIcon texture="%ModDir%/Images/largesurgicalkit.png" sourcerect="0,0,180,144" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/largesurgicalkit.png" sourcerect="0,0,180,144" origin="0.5,0.5" depth="0.6" />
+    <Body width="170" height="125" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="0,75" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="12" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="surgerytool" excludeditems="toolbelt,toolbox,mobilecontainer" />
+      <SlotIcon slotindex="12" texture="%ModDir%/Images/sloticon_suture.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="13" texture="%ModDir%/Images/sloticon_suture.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="14" texture="%ModDir%/Images/sloticon_suture.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="15" texture="%ModDir%/Images/sloticon_suture.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SubContainer capacity="4">
+        <Containable items="suture" />
+      </SubContainer>
+    </ItemContainer>
+  </Item>
+
+</Items>

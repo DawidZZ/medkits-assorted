@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Medkits Assorted" modversion="0.9.0" corepackage="false" gameversion="1.13.5.0">
+<contentpackage name="Medkits Assorted" modversion="0.10.0" corepackage="false" gameversion="1.13.5.0">
   <Item file="%ModDir%/Items/medkit.xml" />
   <Item file="%ModDir%/Items/ifak.xml" />
   <Item file="%ModDir%/Items/traumabag.xml" />
@@ -7,6 +7,8 @@
   <Item file="%ModDir%/Items/largemedicalbag.xml" />
   <Item file="%ModDir%/Items/medicalbackpack.xml" />
   <Item file="%ModDir%/Items/firstrespondervest.xml" />
+  <Item file="%ModDir%/Items/largesurgicalkit.xml" />
+  <Item file="%ModDir%/Items/basicsurgicalkit.xml" />
   <Talents file="%ModDir%/Talents/Talents.xml" />
   <TalentTrees file="%ModDir%/Talents/TalentTrees.xml" />
   <Text file="%ModDir%/Texts/English.xml" />
@@ -24,6 +26,9 @@
   <Other file="%ModDir%/Images/sloticon_bandage.png" />
   <Other file="%ModDir%/Images/talent_firstresponder.png" />
   <Other file="%ModDir%/Images/talent_alwaysprepared.png" />
+  <Other file="%ModDir%/Images/largesurgicalkit.png" />
+  <Other file="%ModDir%/Images/basicsurgicalkit.png" />
+  <Other file="%ModDir%/Images/sloticon_suture.png" />
   <Other file="%ModDir%/Lua/Autorun/medkitsassorted.lua" />
   <Other file="%ModDir%/Lua/Scripts/config.lua" />
   <Other file="%ModDir%/Lua/Scripts/util.lua" />
@@ -34,4 +39,8 @@
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/layout.lua" />
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/open.lua" />
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/drag_bar.lua" />
+  <Other file="%ModDir%/Lua/Scripts/surgical_kits/detect.lua" />
+  <Other file="%ModDir%/Lua/Scripts/surgical_kits/recipes.lua" />
+  <Other file="%ModDir%/Lua/Scripts/surgical_kits/kit.lua" />
+  <Other file="%ModDir%/Lua/Scripts/surgical_kits/health_menu.lua" />
 </contentpackage>

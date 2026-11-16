@@ -23,4 +23,13 @@
 
   <talentname.mka_firstresponder>First Responder</talentname.mka_firstresponder>
   <talentname.mka_alwaysprepared>Always Prepared</talentname.mka_alwaysprepared>
+
+  <entityname.mka_largesurgicalkit>Large Surgical Kit</entityname.mka_largesurgicalkit>
+  <entitydescription.mka_largesurgicalkit>A large case for surgical tools, with dedicated pockets for sutures.</entitydescription.mka_largesurgicalkit>
+
+  <entityname.mka_basicsurgicalkit>Basic Surgical Kit</entityname.mka_basicsurgicalkit>
+  <entitydescription.mka_basicsurgicalkit>A compact roll of basic surgical instruments with pockets for sutures. \n\n‖color:gui.blue‖Enables usage of all basic Neurotrauma tools in the Health Menu.‖end‖</entitydescription.mka_basicsurgicalkit>
+
+  <talentdescription.mka_alwaysprepared_nt>With Neurotrauma: also unlock recipes for [itemname] (empty and equipped).</talentdescription.mka_alwaysprepared_nt>
+  <displayname.mka_kit>[itemname] (kit)</displayname.mka_kit>
 </infotexts>

@@ -20,6 +20,9 @@
     <Description tag="talentdescription.unlockrecipe">
       <Replace tag="[itemname]" value="entityname.mka_largemedicalbag" color="gui.orange" />
     </Description>
+    <Description tag="talentdescription.mka_alwaysprepared_nt">
+      <Replace tag="[itemname]" value="entityname.mka_largesurgicalkit" color="gui.orange" />
+    </Description>
     <AddedRecipe itemidentifier="mka_largemedicalbag" />
   </Talent>
 
