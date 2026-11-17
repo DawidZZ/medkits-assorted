@@ -4,6 +4,21 @@ A Barotrauma mod adding new medkits: portable containers that accept only medica
 Works on the vanilla game and is compatible with Neurotrauma and Neurotrauma CS and their addons
 (mods that change the medic talent tree need attention, see [Medic talent tree override](#medic-talent-tree-override)).
 
+## AI use
+
+> **AI use disclaimer:**
+> The item sprites and talent icons were generated with AI, some with minor manual edits.
+> The infographics and the mod's cover are rendered by a script written by an AI coding agent.
+> The mod's code was written with the help of an AI coding agent, and I reviewed all of it myself (I'm a software
+> developer by profession).
+> Design, testing and balancing were done by me.
+
+> **Author's note:** I know AI is controversial, and I'm not a fan of AI "art" myself. I only decided to publish the mod
+> because the final result doesn't have that "AI slop" feel, especially at Barotrauma's item scale (with the possible
+> exception of the First Responder Vest, whose front still looks like slop). That being said, as a programmer I can
+> vouch for AI code: coding agents have improved significantly over the past *few* years, and in many cases they write
+> higher-quality code than many programmers do.
+
 ## Features
 
 | Item | Slots | Carried |
