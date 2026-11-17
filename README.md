@@ -4,6 +4,8 @@ A Barotrauma mod adding new medkits: portable containers that accept only medica
 Works on the vanilla game and is compatible with Neurotrauma and Neurotrauma CS and their addons
 (mods that change the medic talent tree need attention, see [Medic talent tree override](#medic-talent-tree-override)).
 
+**Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=3841432149
+
 ## AI use
 
 > **AI use disclaimer:**
