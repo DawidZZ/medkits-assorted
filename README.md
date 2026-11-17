@@ -66,7 +66,7 @@ take priority. Choose with the load order:
   be picked. With [LuaCsForBarotrauma](https://steamcommunity.com/sharedfiles/filedetails/?id=2559634234), the mod
   notices at startup that its talents aren't in any tree and unlocks their items for everyone. Without LuaCs those
   items can't be fabricated (the medkits themselves work as usual). In that case use
-  [Medkits Assorted Lite](https://github.com/DawidZZ/medkits-assorted-lite) instead.
+  **Medkits Assorted Lite** ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3841441003) · [GitHub](https://github.com/DawidZZ/medkits-assorted-lite)) instead.
 
 ## Medkits Assorted Lite
 
@@ -78,7 +78,7 @@ conflict with mods that change the medic talent tree.
 - No Lua features: medkits don't fit into uniform pockets.
 - Saves keep working when switching between the two versions. **Don't enable both at once**, they define the same items.
 
-GitHub: https://github.com/DawidZZ/medkits-assorted-lite
+Lite: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3841441003) · [GitHub](https://github.com/DawidZZ/medkits-assorted-lite)
 
 ## Development
 
