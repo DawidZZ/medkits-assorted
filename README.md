@@ -88,6 +88,9 @@ scripts/link-localmods.sh   # symlinks the mod to <game>/LocalMods/MedkitsAssort
 
 `workshop/` holds the Steam Workshop description (`description.bbcode`, Steam BBCode) and the item infographics it
 embeds (`images/`, copied from `medkits-assorted-infographics/output/medkits-assorted/en/`; recopy after rerunning it).
+The description links the images through `raw.githubusercontent.com` pinned to a commit hash, because Steam caches
+images by URL: after pushing new images, replace the hash in `description.bbcode` with the pushed commit
+(`git rev-parse origin/main`).
 
 ## License
 
