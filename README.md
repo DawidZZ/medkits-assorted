@@ -4,6 +4,23 @@ A Barotrauma mod adding new medkits: portable containers that accept only medica
 Works on the vanilla game and is compatible with Neurotrauma and Neurotrauma CS and their addons
 (mods that change the medic talent tree need attention, see [Medic talent tree override](#medic-talent-tree-override)).
 
+## Features
+
+| Item | Slots | Carried |
+|---|---|---|
+| IFAK | 4 | inventory slot, one hand, backpack, belt, uniform pocket (LuaCs) |
+| Medkit | 9 | inventory slot, one hand, medic uniform pocket (LuaCs) |
+| Large Medical Bag | 12 | inventory slot, one hand |
+| Medical Backpack | 12, +10 Medical skill | bag slot |
+| Trauma Bag | 20, breaks down in water | both hands |
+| Waterproof Trauma Bag | 16 | both hands |
+| First Responder Tactical Vest | 6 + 2 for bandages, light armor | outer clothing slot |
+| Large Surgical Kit (Neurotrauma) | 12 + 4 for sutures, empty or with tools | inventory slot, one hand |
+| Basic Surgical Kit (NTCS) | 4 + 2 for sutures, enables surgical tool buttons in the health menu | inventory slot, one hand |
+
+- **2 medic talents**: First Responder and Always Prepared, unlocking recipes for the bigger kits.
+- **Uniform pockets** (LuaCs): Medkit and IFAK attached to a uniform open straight from there.
+
 ## Requirements
 
 - **Barotrauma 1.13.5.0** or newer. No other mods are required: all items work on the vanilla game.
