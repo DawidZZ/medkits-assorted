@@ -1,0 +1,60 @@
+[h1]Medkits Assorted[/h1]
+
+[quote][b]AI use disclaimer:[/b]
+The item sprites and talent icons were generated with AI, some with minor manual edits.
+The infographics and the mod's cover are rendered by a script written by an AI coding agent.
+The mod's code was written with the help of an AI coding agent, and I reviewed all of it myself (I'm a software developer by profession).
+Design, testing and balancing were done by me.[/quote]
+
+New medkits, bags, a backpack and a first responder tactical vest: portable containers that accept [b]medical items only[/b].
+
+I created this mod first and foremost with Neurotrauma in mind. I always found it difficult to organise my inventory while playing with NT, and I especially wanted small, handy medkits to distribute among crew members (the IFAK).
+
+[h2]Items[/h2]
+
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/01_ifak.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/02_medkit.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/03_largemedicalbag.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/04_medicalbackpack.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/05_traumabag.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/06_traumabag_waterproof.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/07_firstrespondervest.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/08_largesurgicalkit.png[/img]
+[img]https://raw.githubusercontent.com/DawidZZ/medkits-assorted/main/workshop/images/09_basicsurgicalkit.png[/img]
+
+[h2]Medic talents[/h2]
+[list]
+[*][b]First Responder[/b]: an alternative to Medical Expertise. Unlocks the First Responder Tactical Vest and the Medical Backpack.
+[*][b]Always Prepared[/b]: second row of the main medic tree. Unlocks the Large Medical Bag and, with Neurotrauma, the Large Surgical Kit.
+[/list]
+
+[h2]Uniform pockets (LuaCs)[/h2]
+With [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2559634234]LuaCsForBarotrauma[/url], the Medkit fits into medic uniform pockets, and the IFAK also into toolbelts and cabinets. The contents of both can be accessed straight from the uniform by hovering over them. In multiplayer, LuaCs is needed on the server and on the clients.
+
+[h2]Optional mods[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2559634234]LuaCsForBarotrauma[/url]: uniform pockets.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3190189044]Neurotrauma[/url]: Large Surgical Kit.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3744761298]Neurotrauma CS[/url]: Large Surgical Kit and Basic Surgical Kit.
+[/list]
+
+[h2]Override warning: medic talent tree[/h2]
+This mod [b]overrides the medic talent tree[/b]. If another mod also changes the medic tree (e.g. NTCS Grafting), only one tree is used, and the load order decides which: mods [b]higher[/b] in the mod list take priority.
+
+Other mods overriding the medic talent tree won't cause problems, but keep the load order in mind. If that's not an option, use [b]Medkits Assorted Lite[/b].
+
+If another mod that overrides the medic talent tree is [b]higher[/b] in the load order than this one, the Lua code will detect that the talents are missing and remove the blueprint restriction from talent-locked items. This requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2559634234]LuaCsForBarotrauma[/url].
+
+[h2]Medkits Assorted Lite[/h2]
+A lightweight version of this mod with [b]no Lua code and no XML overrides[/b]. It has the same items (except the surgical kits), without talents: anyone can fabricate everything. Saves work with both versions, but [b]don't enable both at once[/b].
+Lite: [url=https://github.com/DawidZZ/medkits-assorted-lite]GitHub[/url] · Workshop: TODO
+
+[h2]Feedback[/h2]
+If you find any bugs, have any suggestions/feature requests/balance notes, want support for your language (I can translate it with an LLM or use a translation sent by a volunteer), or would like to contribute assets that aren't AI-generated, contact me via Steam or GitHub.
+
+[h2]Details[/h2]
+[list]
+[*]Game version: 1.13.5.0 or newer.
+[*]Languages: English, Polish.
+[*]Source code: [url=https://github.com/DawidZZ/medkits-assorted]GitHub[/url], licensed under GPL v3.
+[/list]

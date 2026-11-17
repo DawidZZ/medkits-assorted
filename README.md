@@ -69,6 +69,9 @@ GitHub: https://github.com/DawidZZ/medkits-assorted-lite
 scripts/link-localmods.sh   # symlinks the mod to <game>/LocalMods/MedkitsAssorted
 ```
 
+`workshop/` holds the Steam Workshop description (`description.bbcode`, Steam BBCode) and the item infographics it
+embeds (`images/`, copied from `medkits-assorted-infographics/output/medkits-assorted/en/`; recopy after rerunning it).
+
 ## License
 
 Copyright (C) 2026 DawidZZ
