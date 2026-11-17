@@ -26,5 +26,4 @@ if CLIENT then
     run("nested_inventory/frames")
     run("nested_inventory/layout")
     run("nested_inventory/open")
-    run("nested_inventory/drag_bar")
 end

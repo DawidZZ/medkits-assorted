@@ -38,7 +38,6 @@
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/frames.lua" />
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/layout.lua" />
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/open.lua" />
-  <Other file="%ModDir%/Lua/Scripts/nested_inventory/drag_bar.lua" />
   <Other file="%ModDir%/Lua/Scripts/surgical_kits/detect.lua" />
   <Other file="%ModDir%/Lua/Scripts/surgical_kits/recipes.lua" />
   <Other file="%ModDir%/Lua/Scripts/surgical_kits/kit.lua" />
