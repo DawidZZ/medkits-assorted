@@ -34,6 +34,7 @@
   <Other file="%ModDir%/Lua/Scripts/util.lua" />
   <Other file="%ModDir%/Lua/Scripts/clothing.lua" />
   <Other file="%ModDir%/Lua/Scripts/uniform_pockets.lua" />
+  <Other file="%ModDir%/Lua/Scripts/talents.lua" />
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/common.lua" />
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/frames.lua" />
   <Other file="%ModDir%/Lua/Scripts/nested_inventory/layout.lua" />

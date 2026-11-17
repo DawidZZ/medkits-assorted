@@ -17,7 +17,15 @@ MA.PocketRuleTags = { "smallitem", "medical", "chem" }
 
 MA.LargeSurgicalKit = "mka_largesurgicalkit"
 MA.BasicSurgicalKit = "mka_basicsurgicalkit"
+MA.FirstResponder = "mka_firstresponder"
 MA.AlwaysPrepared = "mka_alwaysprepared"
+
+-- Recipes from each talent's <AddedRecipe> (Talents.xml), unlocked for everyone when the talent isn't in any tree.
+-- The Large Surgical Kit (Always Prepared, NT only) is handled in surgical_kits/recipes.lua.
+MA.TalentRecipes = {
+    [MA.FirstResponder] = { "mka_firstrespondervest", "mka_medicalbackpack" },
+    [MA.AlwaysPrepared] = { "mka_largemedicalbag" },
+}
 
 -- Tools put into a Large Surgical Kit made with the (kit) recipe (like NT's surgerytoolboxset)
 MA.SurgicalKitTools = { "advscalpel", "advhemostat", "advretractors", "tweezers", "traumashears", "surgicaldrill", "surgerysaw" }

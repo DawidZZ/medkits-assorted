@@ -9,6 +9,7 @@ run("config")
 run("util")
 run("clothing")
 run("uniform_pockets")
+run("talents")
 
 run("surgical_kits/detect")
 if MedkitsAssorted.HasNT then

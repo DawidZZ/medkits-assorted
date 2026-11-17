@@ -18,7 +18,8 @@ Hook.Patch("Barotrauma.Character", "HasRecipeForItem", { "Barotrauma.Identifier"
         local id = identifier and identifier.Value
         if id == nil then return end
         if (id == MA.BasicSurgicalKit and MA.HasNTCS)
-            or (id == MA.LargeSurgicalKit and (filteringFabricator or instance.HasTalent(MA.AlwaysPrepared))) then
+            or (id == MA.LargeSurgicalKit and (filteringFabricator or MA.MissingTalents[MA.AlwaysPrepared]
+                or instance.HasTalent(MA.AlwaysPrepared))) then
             ptable.ReturnValue = true
         end
     end)

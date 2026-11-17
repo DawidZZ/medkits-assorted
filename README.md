@@ -28,10 +28,11 @@ NTCS Grafting), the game keeps the tree from the mod with the highest priority. 
 take priority. Choose with the load order:
 
 - **Medkits Assorted above the other mod**: you get this mod's talents, but the other mod's changes to the medic tree are lost.
-- **Medkits Assorted below the other mod**: the other mod's tree wins. First Responder and Always Prepared can't be
-  picked, so the items from their recipes can't be fabricated (the medkits themselves work as usual).
-
-If you want the other mod's tree and every item, use [Medkits Assorted Lite](#medkits-assorted-lite) instead.
+- **Medkits Assorted below the other mod**: the other mod's tree wins and First Responder and Always Prepared can't
+  be picked. With [LuaCsForBarotrauma](https://steamcommunity.com/sharedfiles/filedetails/?id=2559634234), the mod
+  notices at startup that its talents aren't in any tree and unlocks their items for everyone. Without LuaCs those
+  items can't be fabricated (the medkits themselves work as usual). In that case use
+  [Medkits Assorted Lite](https://github.com/DawidZZ/medkits-assorted-lite) instead.
 
 ## Medkits Assorted Lite
 
@@ -43,7 +44,7 @@ conflict with mods that change the medic talent tree.
 - No Lua features: medkits don't fit into uniform pockets.
 - Saves keep working when switching between the two versions. **Don't enable both at once**, they define the same items.
 
-GitHub: *link coming soon* 
+GitHub: https://github.com/DawidZZ/medkits-assorted-lite
 
 ## Development
 
@@ -56,8 +57,9 @@ scripts/link-localmods.sh   # symlinks the mod to <game>/LocalMods/MedkitsAssort
 Copyright (C) 2026 DawidZZ
 
 This mod is free software: you can redistribute it and/or modify it under the terms of the
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option) any later version.
+GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
 It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [LICENSE](LICENSE) file for the full text of the
+GNU General Public License v3.0.
