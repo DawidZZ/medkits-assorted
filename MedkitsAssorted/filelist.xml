@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Medkits Assorted" modversion="1.0.0" corepackage="False" steamworkshopid="3841432149" gameversion="1.13.5.0">
+<contentpackage name="Medkits Assorted" modversion="1.1.0" corepackage="False" steamworkshopid="3841432149" gameversion="1.13.5.0">
   <Item file="%ModDir%/Items/medkit.xml" />
   <Item file="%ModDir%/Items/ifak.xml" />
   <Item file="%ModDir%/Items/traumabag.xml" />
