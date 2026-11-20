@@ -37,6 +37,8 @@ Works on the vanilla game and is compatible with Neurotrauma and Neurotrauma CS 
 
 - **2 medic talents**: First Responder and Always Prepared, unlocking recipes for the bigger kits.
 - **Uniform pockets** (LuaCs): Medkit and IFAK attached to a uniform open straight from there.
+- **White surgical kits**: both surgical kits can be repainted white (and back) in a fabricator; the contents stay in
+  the kit.
 
 ## Requirements
 

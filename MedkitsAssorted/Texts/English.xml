@@ -26,10 +26,15 @@
 
   <entityname.mka_largesurgicalkit>Large Surgical Kit</entityname.mka_largesurgicalkit>
   <entitydescription.mka_largesurgicalkit>A large case for surgical tools, with dedicated pockets for sutures.</entitydescription.mka_largesurgicalkit>
+  <entityname.mka_largesurgicalkit_white>Large Surgical Kit (White)</entityname.mka_largesurgicalkit_white>
+  <entitydescription.mka_largesurgicalkit_white>A large case for surgical tools, with dedicated pockets for sutures.</entitydescription.mka_largesurgicalkit_white>
 
   <entityname.mka_basicsurgicalkit>Basic Surgical Kit</entityname.mka_basicsurgicalkit>
   <entitydescription.mka_basicsurgicalkit>A compact roll of basic surgical instruments with pockets for sutures. \n\n‖color:gui.blue‖Enables usage of all basic Neurotrauma tools in the Health Menu.‖end‖</entitydescription.mka_basicsurgicalkit>
+  <entityname.mka_basicsurgicalkit_white>Basic Surgical Kit (White)</entityname.mka_basicsurgicalkit_white>
+  <entitydescription.mka_basicsurgicalkit_white>A compact roll of basic surgical instruments with pockets for sutures. \n\n‖color:gui.blue‖Enables usage of all basic Neurotrauma tools in the Health Menu.‖end‖</entitydescription.mka_basicsurgicalkit_white>
 
   <talentdescription.mka_alwaysprepared_nt>With Neurotrauma: also unlock recipes for [itemname] (empty and equipped).</talentdescription.mka_alwaysprepared_nt>
   <displayname.mka_kit>[itemname] (kit)</displayname.mka_kit>
+  <displayname.mka_repaint>[itemname] (repaint)</displayname.mka_repaint>
 </infotexts>

@@ -9,6 +9,8 @@
   <Item file="%ModDir%/Items/firstrespondervest.xml" />
   <Item file="%ModDir%/Items/largesurgicalkit.xml" />
   <Item file="%ModDir%/Items/basicsurgicalkit.xml" />
+  <Item file="%ModDir%/Items/largesurgicalkit_white.xml" />
+  <Item file="%ModDir%/Items/basicsurgicalkit_white.xml" />
   <Talents file="%ModDir%/Talents/Talents.xml" />
   <TalentTrees file="%ModDir%/Talents/TalentTrees.xml" />
   <Text file="%ModDir%/Texts/English.xml" />
@@ -28,6 +30,8 @@
   <Other file="%ModDir%/Images/talent_alwaysprepared.png" />
   <Other file="%ModDir%/Images/largesurgicalkit.png" />
   <Other file="%ModDir%/Images/basicsurgicalkit.png" />
+  <Other file="%ModDir%/Images/largesurgicalkit_white.png" />
+  <Other file="%ModDir%/Images/basicsurgicalkit_white.png" />
   <Other file="%ModDir%/Images/sloticon_suture.png" />
   <Other file="%ModDir%/Lua/Autorun/medkitsassorted.lua" />
   <Other file="%ModDir%/Lua/Scripts/config.lua" />
@@ -42,5 +46,7 @@
   <Other file="%ModDir%/Lua/Scripts/surgical_kits/detect.lua" />
   <Other file="%ModDir%/Lua/Scripts/surgical_kits/recipes.lua" />
   <Other file="%ModDir%/Lua/Scripts/surgical_kits/kit.lua" />
+  <Other file="%ModDir%/Lua/Scripts/surgical_kits/repaint.lua" />
+  <Other file="%ModDir%/Lua/Scripts/surgical_kits/fabricator_list.lua" />
   <Other file="%ModDir%/Lua/Scripts/surgical_kits/health_menu.lua" />
 </contentpackage>

@@ -2,7 +2,6 @@ local MA = MedkitsAssorted
 
 local fabricatorDescriptor = LuaUserData.RegisterType("Barotrauma.Items.Components.Fabricator")
 LuaUserData.MakeFieldAccessible(fabricatorDescriptor, "fabricatedItem")
-LuaUserData.RegisterType("Barotrauma.FabricationRecipe")
 
 local function countOf(collection)
     local n = 0

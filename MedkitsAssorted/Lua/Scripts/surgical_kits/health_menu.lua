@@ -1,9 +1,19 @@
 local MA = MedkitsAssorted
 
+local basicKits = { MA.BasicSurgicalKit, MA.BasicSurgicalKitWhite }
+
+local function findBasicKit(inventory, recursive)
+    for _, identifier in ipairs(basicKits) do
+        local kit = inventory.FindItemByIdentifier(identifier, recursive)
+        if kit ~= nil then return kit end
+    end
+    return nil
+end
+
 local function controlledHasBasicKit()
     local character = Character.Controlled
     if character == nil or character.Inventory == nil then return false end
-    return character.Inventory.FindItemByIdentifier(MA.BasicSurgicalKit, true) ~= nil
+    return findBasicKit(character.Inventory, true) ~= nil
 end
 
 local patchedNtcs = pcall(function()
@@ -20,9 +30,7 @@ if not patchedNtcs then
             if ptable.OriginalReturnValue ~= nil then return end
             local identifier = ptable["identifier"]
             if identifier == nil or identifier.Value ~= "surgerykit" then return end
-            local ok, result = pcall(function()
-                return instance.FindItemByIdentifier(MA.BasicSurgicalKit, ptable["recursive"])
-            end)
+            local ok, result = pcall(findBasicKit, instance, ptable["recursive"])
             if ok and result ~= nil then ptable.ReturnValue = result end
         end, Hook.HookMethodType.After)
 end

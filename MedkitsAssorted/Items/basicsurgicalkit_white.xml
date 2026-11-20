@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- Basic Surgical Kit, white (made by repainting the red kit in a fabricator, keeps the contents) -->
+  <Item name="" identifier="mka_basicsurgicalkit_white" category="Equipment" tags="smallitem,mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.22" fireproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" displayname="mka_repaint" requiredtime="5" requiresrecipe="true" hideifnorecipe="true">
+      <RequiredItem identifier="mka_basicsurgicalkit" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Price baseprice="80" sold="false" />
+    <InventoryIcon texture="%ModDir%/Images/basicsurgicalkit_white.png" sourcerect="0,0,140,75" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/basicsurgicalkit_white.png" sourcerect="0,0,140,75" origin="0.5,0.5" depth="0.6" />
+    <Body width="130" height="65" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="0,30" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="4" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="surgerytool" excludeditems="toolbelt,toolbox,mobilecontainer" />
+      <SlotIcon slotindex="4" texture="%ModDir%/Images/sloticon_suture.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="5" texture="%ModDir%/Images/sloticon_suture.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SubContainer capacity="2">
+        <Containable items="suture" />
+      </SubContainer>
+    </ItemContainer>
+  </Item>
+
+</Items>

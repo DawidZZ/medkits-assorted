@@ -17,6 +17,16 @@ MA.PocketRuleTags = { "smallitem", "medical", "chem" }
 
 MA.LargeSurgicalKit = "mka_largesurgicalkit"
 MA.BasicSurgicalKit = "mka_basicsurgicalkit"
+MA.LargeSurgicalKitWhite = "mka_largesurgicalkit_white"
+MA.BasicSurgicalKitWhite = "mka_basicsurgicalkit_white"
+
+-- Repaint recipes: target kit -> the kit it is made from (surgical_kits/repaint.lua keeps the contents)
+MA.KitRepaints = {
+    [MA.LargeSurgicalKit] = MA.LargeSurgicalKitWhite,
+    [MA.LargeSurgicalKitWhite] = MA.LargeSurgicalKit,
+    [MA.BasicSurgicalKit] = MA.BasicSurgicalKitWhite,
+    [MA.BasicSurgicalKitWhite] = MA.BasicSurgicalKit,
+}
 MA.FirstResponder = "mka_firstresponder"
 MA.AlwaysPrepared = "mka_alwaysprepared"
 

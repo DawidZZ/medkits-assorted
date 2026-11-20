@@ -9,6 +9,9 @@
       <RequiredItem identifier="steel" amount="2" />
       <RequiredItem identifier="zinc" amount="2" />
     </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="mka_repaint" requiredtime="5" requiresrecipe="true" hideifnorecipe="true">
+      <RequiredItem identifier="mka_basicsurgicalkit_white" />
+    </Fabricate>
     <Deconstruct time="10">
       <Item identifier="steel" />
     </Deconstruct>

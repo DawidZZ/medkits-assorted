@@ -26,10 +26,15 @@
 
   <entityname.mka_largesurgicalkit>Duży zestaw chirurgiczny</entityname.mka_largesurgicalkit>
   <entitydescription.mka_largesurgicalkit>Duża torba na narzędzia chirurgiczne z osobnymi kieszeniami na szwy.</entitydescription.mka_largesurgicalkit>
+  <entityname.mka_largesurgicalkit_white>Duży zestaw chirurgiczny (biały)</entityname.mka_largesurgicalkit_white>
+  <entitydescription.mka_largesurgicalkit_white>Duża torba na narzędzia chirurgiczne z osobnymi kieszeniami na szwy.</entitydescription.mka_largesurgicalkit_white>
 
   <entityname.mka_basicsurgicalkit>Podstawowy zestaw chirurgiczny</entityname.mka_basicsurgicalkit>
   <entitydescription.mka_basicsurgicalkit>Kompaktowy zwijany zestaw podstawowych narzędzi chirurgicznych z kieszeniami na szwy. \n\n‖color:gui.blue‖Pozwala używać wszystkich podstawowych narzędzi Neurotraumy w menu zdrowia.‖end‖</entitydescription.mka_basicsurgicalkit>
+  <entityname.mka_basicsurgicalkit_white>Podstawowy zestaw chirurgiczny (biały)</entityname.mka_basicsurgicalkit_white>
+  <entitydescription.mka_basicsurgicalkit_white>Kompaktowy zwijany zestaw podstawowych narzędzi chirurgicznych z kieszeniami na szwy. \n\n‖color:gui.blue‖Pozwala używać wszystkich podstawowych narzędzi Neurotraumy w menu zdrowia.‖end‖</entitydescription.mka_basicsurgicalkit_white>
 
   <talentdescription.mka_alwaysprepared_nt>Z Neurotraumą: odblokowuje też przepisy na [itemname] (pusty i wyposażony).</talentdescription.mka_alwaysprepared_nt>
   <displayname.mka_kit>[itemname] (zestaw)</displayname.mka_kit>
+  <displayname.mka_repaint>[itemname] (przemalowanie)</displayname.mka_repaint>
 </infotexts>

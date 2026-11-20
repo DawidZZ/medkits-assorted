@@ -16,6 +16,10 @@ if MedkitsAssorted.HasNT then
     run("surgical_kits/recipes")
     if not (CLIENT and Game.IsMultiplayer) then
         run("surgical_kits/kit")
+        run("surgical_kits/repaint")
+    end
+    if CLIENT then
+        run("surgical_kits/fabricator_list")
     end
     if CLIENT and MedkitsAssorted.HasNTCS then
         run("surgical_kits/health_menu")
