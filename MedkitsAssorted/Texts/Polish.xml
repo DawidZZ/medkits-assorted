@@ -16,7 +16,7 @@
   <entitydescription.mka_largemedicalbag>Pojemna torba medyka, noszona w jednej ręce albo w ekwipunku. Mieści tylko przedmioty medyczne.</entitydescription.mka_largemedicalbag>
 
   <entityname.mka_medicalbackpack>Plecak medyczny</entityname.mka_medicalbackpack>
-  <entitydescription.mka_medicalbackpack>Plecak medyka zakładany w slocie torby. Mieści tylko przedmioty medyczne, daje bonus do znolności medycznych.</entitydescription.mka_medicalbackpack>
+  <entitydescription.mka_medicalbackpack>Plecak medyka zakładany w slocie torby. Ma 3 sloty na apteczki, 6 na przedmioty medyczne i 3 na dowolne małe przedmioty. Daje bonus do umiejętności medycznych.</entitydescription.mka_medicalbackpack>
 
   <entityname.mka_firstrespondervest>Kamizelka taktyczna ratownika</entityname.mka_firstrespondervest>
   <entitydescription.mka_firstrespondervest>Lekka kamizelka taktyczna dla medyków pracujących na pierwszej linii. Chroni słabiej niż standardowa kamizelka kuloodporna, ale ma kieszenie na środki medyczne i osobne kieszonki na bandaże.</entitydescription.mka_firstrespondervest>

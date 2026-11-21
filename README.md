@@ -28,7 +28,7 @@ Works on the vanilla game and is compatible with Neurotrauma and Neurotrauma CS 
 | IFAK | 4 | inventory slot, one hand, backpack, belt, uniform pocket (LuaCs) |
 | Medkit | 9 | inventory slot, one hand, medic uniform pocket (LuaCs) |
 | Large Medical Bag | 12 | inventory slot, one hand |
-| Medical Backpack | 12, +10 Medical skill | bag slot |
+| Medical Backpack | 3 for medkits and surgical kits, 6 for medical supplies, 3 for any small item; +10 Medical skill | bag slot |
 | Trauma Bag | 20, breaks down in water | one hand |
 | Waterproof Trauma Bag | 16 | one hand |
 | First Responder Tactical Vest | 6 + 2 for bandages, light armor | outer clothing slot |

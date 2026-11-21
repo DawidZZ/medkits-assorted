@@ -16,7 +16,7 @@
   <entitydescription.mka_largemedicalbag>A roomy medic's bag, carried in one hand or kept in the inventory. Holds medical supplies only.</entitydescription.mka_largemedicalbag>
 
   <entityname.mka_medicalbackpack>Medical Backpack</entityname.mka_medicalbackpack>
-  <entitydescription.mka_medicalbackpack>A medic's backpack worn in the bag slot. Holds medical supplies only, gives medical skill bonus.</entitydescription.mka_medicalbackpack>
+  <entitydescription.mka_medicalbackpack>A medic's backpack worn in the bag slot. Has 3 slots for medkits, 6 for medical supplies and 3 for any small item. Gives a medical skill bonus.</entitydescription.mka_medicalbackpack>
 
   <entityname.mka_firstrespondervest>First Responder Tactical Vest</entityname.mka_firstrespondervest>
   <entitydescription.mka_firstrespondervest>A light tactical vest made for medics working on the front line. Offers less protection than standard body armor, but has pouches for medical supplies and dedicated slots for bandages.</entitydescription.mka_firstrespondervest>

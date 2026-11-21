@@ -33,6 +33,8 @@
   <Other file="%ModDir%/Images/largesurgicalkit_white.png" />
   <Other file="%ModDir%/Images/basicsurgicalkit_white.png" />
   <Other file="%ModDir%/Images/sloticon_suture.png" />
+  <Other file="%ModDir%/Images/sloticon_medkit.png" />
+  <Other file="%ModDir%/Images/sloticon_any.png" />
   <Other file="%ModDir%/Lua/Autorun/medkitsassorted.lua" />
   <Other file="%ModDir%/Lua/Scripts/config.lua" />
   <Other file="%ModDir%/Lua/Scripts/util.lua" />

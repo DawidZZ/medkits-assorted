@@ -28,8 +28,21 @@
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.7" setvalue="true" disabledeltatime="true" />
       <StatValue stattype="PropulsionSpeed" value="-0.3" />
     </Holdable>
-    <ItemContainer capacity="12" maxstacksize="32" depth="0.5">
-      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+    <ItemContainer capacity="3" maxstacksize="32" depth="0.5">
+      <Containable items="mka_ifak,mka_medkit,mka_basicsurgicalkit,mka_basicsurgicalkit_white,mka_largesurgicalkit,mka_largesurgicalkit_white" />
+      <SlotIcon slotindex="0" texture="%ModDir%/Images/sloticon_medkit.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="1" texture="%ModDir%/Images/sloticon_medkit.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="2" texture="%ModDir%/Images/sloticon_medkit.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="9" texture="%ModDir%/Images/sloticon_any.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="10" texture="%ModDir%/Images/sloticon_any.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="11" texture="%ModDir%/Images/sloticon_any.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SubContainer capacity="6">
+        <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+      </SubContainer>
+      <SubContainer capacity="3">
+        <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
+        <Containable items="smallitem" />
+      </SubContainer>
     </ItemContainer>
   </Item>
 
