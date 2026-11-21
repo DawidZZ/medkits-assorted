@@ -29,8 +29,8 @@ Works on the vanilla game and is compatible with Neurotrauma and Neurotrauma CS 
 | Medkit | 9 | inventory slot, one hand, medic uniform pocket (LuaCs) |
 | Large Medical Bag | 12 | inventory slot, one hand |
 | Medical Backpack | 12, +10 Medical skill | bag slot |
-| Trauma Bag | 20, breaks down in water | both hands |
-| Waterproof Trauma Bag | 16 | both hands |
+| Trauma Bag | 20, breaks down in water | one hand |
+| Waterproof Trauma Bag | 16 | one hand |
 | First Responder Tactical Vest | 6 + 2 for bandages, light armor | outer clothing slot |
 | Large Surgical Kit (Neurotrauma) | 12 + 4 for sutures, empty or with tools | inventory slot, one hand |
 | Basic Surgical Kit (NTCS) | 4 + 2 for sutures, enables surgical tool buttons in the health menu | inventory slot, one hand |

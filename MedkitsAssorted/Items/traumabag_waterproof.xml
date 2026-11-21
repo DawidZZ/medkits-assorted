@@ -18,7 +18,7 @@
     <InventoryIcon texture="%ModDir%/Images/traumabag_waterproof.png" sourcerect="0,0,240,132" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Images/traumabag_waterproof.png" sourcerect="0,0,240,132" origin="0.5,0.5" depth="0.56" />
     <Body width="230" height="110" density="20" friction="1.0" restitution="0.01" />
-    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,64" handle2="0,58" aimable="false" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand,LeftHand" holdpos="0,-80" handle1="0,64" aimable="false" msg="ItemMsgPickUpSelect" />
     <ItemContainer capacity="16" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
       <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,chem" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,syringegun,toolbelt" />
     </ItemContainer>
