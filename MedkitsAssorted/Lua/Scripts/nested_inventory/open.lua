@@ -4,6 +4,17 @@ local N = MA.Nested
 local characterInventoryDescriptor = LuaUserData.RegisterType("Barotrauma.CharacterInventory")
 LuaUserData.MakeMethodAccessible(characterInventoryDescriptor, "ShowSubInventory")
 LuaUserData.MakeFieldAccessible(characterInventoryDescriptor, "hideSubInventories")
+local inventoryDescriptor = LuaUserData.RegisterType("Barotrauma.Inventory")
+LuaUserData.MakeFieldAccessible(inventoryDescriptor, "highlightedSubInventorySlots")
+LuaUserData.RegisterType("System.Collections.Generic.HashSet`1[[Barotrauma.Inventory+SlotReference, Barotrauma]]")
+
+local function closeMedkit(id)
+    local entry = N.Open[id]
+    if entry == nil then return end
+    N.Open[id] = nil
+    entry.container.Inventory.HideTimer = 0
+    Inventory.highlightedSubInventorySlots.Remove(entry.slot)
+end
 
 local function openHoveredMedkit(inventory, character, deltaTime, cam)
     local slot = Inventory.SelectedSlot
@@ -16,6 +27,10 @@ local function openHoveredMedkit(inventory, character, deltaTime, cam)
 
     local container = slot.Item.GetComponentString("ItemContainer")
     if container == nil then return end
+
+    for otherId in pairs(N.Open) do
+        if otherId ~= id then closeMedkit(otherId) end
+    end
 
     N.FreezeFrame(container)
     slot.Inventory = container.Inventory
@@ -34,12 +49,16 @@ local function updateOpenMedkits(character, deltaTime, cam)
         end
 
         if not stillThere then
-            entry.container.Inventory.HideTimer = 0
-            N.Open[id] = nil
+            closeMedkit(id)
         elseif entry.container.Inventory.HideTimer < N.ClosedBelow then
             N.Open[id] = nil
         else
+            local subInventory = entry.container.Inventory
+            local hideTimer = subInventory.HideTimer
+            subInventory.HideTimer = 1.0
+            subInventory.OpenState = 1.0
             N.UpdateBesidePocket(entry, pocket, deltaTime, cam)
+            subInventory.HideTimer = hideTimer
             pocket.HideTimer = 1.0
         end
     end
