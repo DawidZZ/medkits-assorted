@@ -7,14 +7,12 @@
       <RequiredSkill identifier="medical" level="30" />
       <RequiredItem identifier="organicfiber" amount="5" />
       <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="rubber" />
     </Fabricate>
     <Deconstruct time="10">
       <Item identifier="organicfiber" amount="3" />
     </Deconstruct>
-    <Price baseprice="240">
-      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="1" />
-      <Price storeidentifier="merchantcity" minavailable="1" />
-    </Price>
+    <Price baseprice="240" sold="false" />
     <InventoryIcon texture="%ModDir%/Images/medicalbackpack.png" sourcerect="0,0,128,217" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Images/medicalbackpack.png" sourcerect="0,0,128,217" origin="0.5,0.5" depth="0.6" />
     <Body width="118" height="205" density="15" />
